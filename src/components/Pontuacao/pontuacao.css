@@ -1,0 +1,11 @@
+.box-pontuacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 35px;
+}
+
+.pontuacao{
+
+}
