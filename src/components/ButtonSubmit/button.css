@@ -1,5 +1,5 @@
 .btn {
-    background-color: var(--green-primary);
+    background-color: var(--red-primary);
     width: 100%;
     padding: 1.2rem;
     border: none;
@@ -12,5 +12,5 @@
 
 .btn:hover {
     cursor: pointer;
-    background-color: var(--green-light);
+    background-color: var(--red-dark);
 }

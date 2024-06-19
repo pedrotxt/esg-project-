@@ -8,7 +8,7 @@ const Footer = (props: CategoriaProps) => {
     return (
         <>
         <div className='footer'>
-            Olá
+       
         <SimpleGrid spacing={8} templateColumns='repeat(3, 1fr)'>
             
         </SimpleGrid>

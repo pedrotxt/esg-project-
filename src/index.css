@@ -39,28 +39,23 @@ body {
   height: 100%;
   justify-content: center;
   padding: 30px;
+  text-align: center;
 }
 
-.form-box {
+.pontos-conteudo {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   padding: 30px;
   width: 80%;
-  background-color: var(--red-light);
-}
-
-.form-itens-right{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 50%;
-  justify-content: center;
 }
 
 .form-itens{
   display: flex;
   flex-direction: column;
-  margin-left: 70px;
+  align-items: center;
+  justify-content: center;
 }
 
 .categoria-box{
@@ -69,5 +64,35 @@ body {
   align-items: center;
   padding: 40px;
 }
+
+.box-bonificacao{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin-bottom: 50px;
+  
+}
+
+.bonificacao-conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 30px;
+  width: 80%;
+  background-color: var(--red-light);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.bonificao-itens-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 130%;
+  width: 200px;
+}
+
 
 /* ------------------------------------------- */

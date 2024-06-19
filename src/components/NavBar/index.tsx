@@ -9,7 +9,7 @@ interface Props {
     children: React.ReactNode
 }
 
-const Links = ['Setor', 'Categorias', 'Bonificações']
+const Links = ['Setor', 'Categorias', 'Prêmios']
 
 const NavLink = (props: Props) => {
     const { children } = props
@@ -34,7 +34,7 @@ export default function NavBar() {
     const { isOpen, onOpen, onClose } = useDisclosure()
     return (
         <>
-        <Box bg={useColorModeValue('red.100', 'red.900')} px={4}>
+        <Box boxShadow='base' bg={useColorModeValue('red.100', 'red.900')} px={4}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
         <IconButton
             colorScheme='red.100'

@@ -8,9 +8,9 @@ import Paragraph from "../../components/Paragraph";
 
 import Logo from '../../assets/Logo.png'
 import NavBar from '../../components/NavBar';
-import Pontuacao from '../../components/Pontuacao';
 import Categorias from '../../components/Categorias';
 import Footer from '../../components/Footer';
+import ButtonSubmit from '../../components/ButtonSubmit';
 
 
 const Login = (): JSX.Element => {
@@ -19,17 +19,32 @@ const Login = (): JSX.Element => {
             <ChakraProvider>   
                 <NavBar />
                 <div className="box">
-                    <div className='left-background'></div>
-                    <div className='form-box'>
+                 
+                    <div className='pontos-conteudo'>
                         <div className='form-itens'>
-                            <img src={Logo} alt="logo" style={{width: "200px"}} />
-                            <Subtitle marcacao={false}>Confira a sua pontuação ao lado</Subtitle>
+                            <Subtitle marcacao={false}>Olá!</Subtitle>
                             <div className="margin"></div>
-                            <Paragraph paragrafo={false}>Use sua pontuação para ganhar Bonificações!</Paragraph>
+                            <Title>Você tem 26000 pontos!</Title>
+                            <img src={Logo} alt="logo" style={{width: "200px", padding: "20px"}} />
+                            <Subtitle marcacao={false}>SALDO DE PONTOS</Subtitle>
+                            <Subtitle marcacao={false}>26000</Subtitle>
+                            <Paragraph paragrafo={false}>Resgate alguma bonificação com seus pontos!</Paragraph>
+
                         </div>
-                        <div className='form-itens-right'>
-                            <Title>Pontuação</Title>
-                            <Pontuacao>150</Pontuacao>
+                    </div>
+                </div>
+                <div className="box-bonificacao">
+             
+                    <div className='bonificacao-conteudo'>
+                        <div className='form-itens'>
+                            <Title>Parabéns!</Title>
+                            <Paragraph paragrafo={false}>Você acumulou 26000 pontos ajudando o meio ambiente!</Paragraph>
+                            <div className="margin"></div>
+                            <Paragraph paragrafo={false}>Resgate agora premios incriveis com seus pontos</Paragraph>
+                        </div>
+                        <div className='bonificao-itens-right'>
+                            <Paragraph paragrafo={false}>X</Paragraph>
+                            <ButtonSubmit submit={true}>RESGATAR AGORA</ButtonSubmit>
                         </div>
                     </div>
                 </div>
